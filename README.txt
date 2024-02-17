@@ -1,1 +1,1 @@
-https://lms.yandex.ru/courses/1054/groups/8671/lessons/5971/tasks/44927
+https://lms.yandex.ru/courses/1054/groups/8671/lessons/5971/tasks/44963
