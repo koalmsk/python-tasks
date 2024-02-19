@@ -1,10 +1,25 @@
-from flask import Flask, render_template
+import flask
 
 
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 
+@app.route("/")
+def index():
+    return "Миссия Колонизация Марса"
 
 
-if __name__ == "__main__":
-    app.run()
+@app.route("/index")
+def apples():
+    return "И на Марсе будут яблони цвести!"
+
+
+@app.route("/image_mars")
+def promotion():
+
+    return flask.render_template("index.html")
+    
+
+
+if __name__ == '__main__':
+    app.run(port=8080, host='127.0.0.1', debug=1)
