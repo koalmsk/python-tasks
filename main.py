@@ -3,6 +3,25 @@ import flask
 
 app = flask.Flask(__name__)
 
+PROFI_LIST = [
+    "инженер-исследователь",
+    "пилот",
+    "строитель",
+    "экзобиолог",
+    "врач",
+    "инженер по терраформированию",
+    "климатолог",
+    "специалист по радиационной защите",
+    "астрогеолог",
+    "гляциолог",
+    "инженер жизнеобеспечения",
+    "метеоролог",
+    "оператор марсохода",
+    "киберинженер",
+    "штурман",
+    "пилот дронов", 
+]
+
 
 @app.route("/")
 def index():
@@ -17,6 +36,10 @@ def apples():
 @app.route("/promotion_image")
 def promotion():
     return flask.render_template("index.html")
+
+@app.route("/anketa")
+def anketa():
+    return flask.render_template("registr.html", for_check_box=PROFI_LIST)
     
 
 

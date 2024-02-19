@@ -14,6 +14,12 @@ div#four {
     background-color: rgb(243, 0, 223);
   }
 
-.alert-heading{
+.card{
     text-align: center;
 }
+
+div#card_input{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
