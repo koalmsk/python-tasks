@@ -40,8 +40,16 @@ def promotion():
 @app.route("/anketa")
 def anketa():
     return flask.render_template("registr.html", for_check_box=PROFI_LIST)
+
+
+@app.route("/load_photo")
+def photo():
+    return flask.render_template("add_file.html", for_check_box=PROFI_LIST)
     
 
 
 if __name__ == '__main__':
     app.run(port=8080, host='127.0.0.1', debug=1)
+
+
+

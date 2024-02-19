@@ -18,7 +18,7 @@ div#four {
     text-align: center;
 }
 
-div#card_input{
+div#card_input, div#file_output{
     margin-left: 10%;
     margin-right: 10%;
 }
