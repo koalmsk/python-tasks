@@ -14,9 +14,8 @@ def apples():
     return "И на Марсе будут яблони цвести!"
 
 
-@app.route("/image_mars")
+@app.route("/promotion_image")
 def promotion():
-
     return flask.render_template("index.html")
     
 

@@ -1,0 +1,19 @@
+div#one {
+    background-color: rgb(255, 30, 30);
+  }
+
+div#two {
+    background-color: rgb(30, 255, 0);
+  }
+
+div#three {
+    background-color: rgb(0, 252, 155);
+  }
+
+div#four {
+    background-color: rgb(243, 0, 223);
+  }
+
+.alert-heading{
+    text-align: center;
+}
